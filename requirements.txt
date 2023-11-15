@@ -10,7 +10,7 @@ babel==2.12.1
     # via
     #   -r requirements.in
     #   flask-babel
-backports-zoneinfo==0.2.1
+backports.zoneinfo==0.2.1;python_version<"3.9"
     # via tzlocal
 beaker==1.12.1
     # via -r requirements.in
